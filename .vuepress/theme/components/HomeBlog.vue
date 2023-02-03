@@ -38,6 +38,7 @@
           <!-- 分页 -->
           <pagation
             class="pagation"
+            :perPage="perPage"
             :total="$recoPosts.length"
             :currentPage="currentPage"
             @getCurrentPage="getCurrentPage"/>
@@ -87,6 +88,7 @@
       return {
         recoShow: false,
         currentPage: 1,
+        perPage:5,
         tags: []
       }
     },

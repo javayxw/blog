@@ -161,6 +161,11 @@ module.exports = {
   "markdown": {
     "lineNumbers": false
   },
+  plugins: [
+      ['@vuepress-reco/vuepress-plugin-pagation', {
+        perPage: 5
+      }],
+    ]     
   // configureWebpack: (config, isServer) => {
   //   if (!isServer) {
   //     // 修改客户端的 webpack 配置
