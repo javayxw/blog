@@ -17,9 +17,12 @@ export default {
   props: ['data', 'currentPage', 'currentTag'],
   computed: {
     currentPageData () {
-      const start = (this.currentPage - 1) * this.$perPage
-      const end = this.currentPage * this.$perPage
+      const start = this.currentPage * 10 - 10
+      const end = this.currentPage * 10
       return this.data.slice(start, end)
+      // const start = (this.currentPage - 1) * this.$perPage
+      // const end = this.currentPage * this.$perPage
+      // return this.data.slice(start, end)
     }
   }
 }
