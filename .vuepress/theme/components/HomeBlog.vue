@@ -19,7 +19,7 @@
         </ModuleTransition>
 
         <ModuleTransition delay="0.08" duration="0.5">
-          <p v-if="recoShowModule && $frontmatter.tagline !== null" class="description">
+          <p v-if="recoShowModule && $frontmatter.tagline !== null" class="longcang">
             {{ motto.en || $frontmatter.tagline || $description || 'Welcome to your zealsay site' }}
           </p>
         </ModuleTransition>
