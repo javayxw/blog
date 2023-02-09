@@ -52,7 +52,7 @@ module.exports = {
             }
         ],
         "type": "blog",
-        "sidebar": false,
+        "sidebar": 'auto',
         "blogConfig": {
             "category": {
                 "location": 2,
