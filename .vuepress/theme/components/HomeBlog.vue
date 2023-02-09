@@ -202,6 +202,10 @@
         margin-top: 5rem;
         font-size: 2.5rem;
       }
+      p {
+        margin-top: 5rem;
+        font-size: 1.6rem;
+      }
 
       .description {
         margin: 1.8rem auto;

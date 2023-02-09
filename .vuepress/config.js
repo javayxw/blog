@@ -63,32 +63,6 @@ module.exports = {
                 "text": "标签"
             }
         },
-        "friendLink": [
-            {
-                "title": "作者博客",
-                "desc": "zealsay说你想说",
-                "logo": "https://pan.zealsay.com/avatar/20200606105310570000000.jpg",
-                "link": "https://blog.zealsay.com"
-            },
-            {
-                "title": "另一个博客",
-                "desc": "vuepress_blog",
-                "logo": "https://pan.zealsay.com/blog/logo.png",
-                "link": "https://www.zealsay.com"
-            },
-            {
-                "title": "午后南杂",
-                "desc": "Enjoy when you can, and endure when you must.",
-                "logo": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-                "link": "https://www.recoluan.com"
-            },
-            {
-                "title": "zealsay开发指南",
-                "desc": "zealsay轻应用脚手架开发指南",
-                "logo": "https://pic.zealsay.com/20190909225214850000000.jpg",
-                "link": "https://docs.zealsay.com"
-            }
-        ],
         "valineConfig": {
             "appId": "xxx",// your appId
             "appKey": "xxx", // your appKey
@@ -105,20 +79,7 @@ module.exports = {
         "authorAvatar": "https://pan.zealsay.com/avatar/20200606105310570000000.jpg",
         "record": "你的备案号 ", //icp备案
         "startYear": "2020",
-        "info": "一名追求技术喜欢安静的程序猿，目前在北京某互联网公司担任高级后台java开发。",
-        "socials": {
-            "github": "https://github.com/GodLikeZeal", //github
-            "gitlub": false, //gitlub
-            "gitee": "https://gitee.com/GodLikeZeal", //gitee
-            "jianshu": "https://www.jianshu.com/u/e2d051b6d2e9", //简书
-            "zhihu": "https://www.zhihu.com/people/qian-ge-diao-63", //知乎
-            "toutiao": false, //知乎
-            "juejin": "https://juejin.im/user/2796746683716990", //掘金
-            "segmentfault": "https://segmentfault.com/u/zeal_5eecb699bdb08", //思否
-            "csdn": false, //CSDN
-            "wechat": "你的微信", //微信
-            "qq": "你的QQ" //QQ
-        },
+        "info": "两名为梦而战的准程序员",
         "mottos": [{
             "zh": "愿你保持初心和善良,笑里尽是温暖与坦荡。",
             "en": "May you keep your original heart and kindness, and smile with warmth and magnanimity."
@@ -182,6 +143,31 @@ module.exports = {
                         cover: 'https://assets.smallsunnyfox.com/music/3.jpg'
                     }
                 ]
+            }
+        ],
+        ["sakura", {
+            num: 10,  // 默认数量
+            show: true,
+            zIndex: 2,
+            img: {
+                replace: false,  // false 默认图 true 换图 需要填写httpUrl地址
+                httpUrl: 'https://www.zpzpup.com/assets/image/sakura.png'     // 绝对路径
+            }
+        }],
+        ["vuepress-plugin-nuggets-style-copy", {
+            copyText: "复制代码",
+            tip: {
+                content: "复制成功"
+            }
+        }],
+        [
+            "dynamic-title",
+            {
+                showIcon: "https://www.zpzpup.com/assets/image/favicon.ico",
+                showText: "欢迎回来 O(∩_∩)O~",
+                hideIcon: "https://www.zpzpup.com/assets/image/favicon.ico",
+                hideText: "失联中。。。快回来~",
+                recoverTime: 2000
             }
         ],
     ]
