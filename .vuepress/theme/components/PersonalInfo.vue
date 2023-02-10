@@ -41,8 +41,8 @@ export default {
   .personal-img {
     display block
     margin 2rem auto 1rem
-    width 6rem
-    height 6rem
+    width 8rem
+    height 8rem
     border-radius 50%
   }
   .name {

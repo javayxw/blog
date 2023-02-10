@@ -2,17 +2,16 @@
   <div class="footer-wrapper">
     <span>
       <i class="iconfont reco-theme"></i>
-      <a target="blank" href="https://vuepress-theme-reco.recoluan.com">{{`vuepress-theme-reco@${version}`}}</a>
+      <a target="blank" href="#">﹏染指ぃ年華</a>
     </span>
-    <span v-if="$themeConfig.record">
-      <i class="iconfont reco-beian"></i>
-      <a :href="$themeConfig.recordLink || '#'">{{ $themeConfig.record }}</a>
-    </span>
+<!--    <span v-if="$themeConfig.record">-->
+<!--      <i class="iconfont reco-beian"></i>-->
+<!--      <a :href="$themeConfig.recordLink || '#'">{{ $themeConfig.record }}</a>-->
+<!--    </span>-->
     <span>
       <i class="iconfont reco-copyright"></i>
       <a>
-        <span v-if="$themeConfig.author || $site.title">{{ $themeConfig.author || $site.title }}</span>
-        &nbsp;&nbsp;
+<!--        <span v-if="$themeConfig.author || $site.title">{{ $themeConfig.author || $site.title }}</span>-->
         <span v-if="$themeConfig.startYear && $themeConfig.startYear != (new Date().getFullYear())">{{ $themeConfig.startYear }} - </span>
         {{ new Date().getFullYear() }}
       </a>

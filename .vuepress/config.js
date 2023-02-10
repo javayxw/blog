@@ -1,13 +1,13 @@
 module.exports = {
-    "title": "zealsay说你想说",
-    "description": "zealsay说你想说,是一个关注于互联网、IT技术经验分享的个人独立博客。专注于IT行业最前沿的技术。致力成为互联网上最个性、最极客、具传播力的个人独立博客。",
+    "title": "﹏染指ぃ年華",
+    "description": "眸中揉进了山海诗篇与万家烛光，在夏季梅子味的晚风中轻轻晕染，织成旖旎幻梦",
     "dest": "dist",
     "head": [
         [
             "link",
             {
                 "rel": "icon",
-                "href": "https://pan.zealsay.com/blog/favicon.ico"
+                "href": "https://pic.imgdb.cn/item/63e635c64757feff337ea914.webp"
             }
         ],
         [
@@ -75,11 +75,12 @@ module.exports = {
         "search": true,
         "searchMaxSuggestions": 10,
         "lastUpdated": "Last Updated",
-        "author": "李白",
-        "authorAvatar": "https://pan.zealsay.com/avatar/20200606105310570000000.jpg",
+        "author": "﹏染指ぃ年華",
+        "authorAvatar": "https://pic.imgdb.cn/item/63e631ce4757feff3375a622.gif",
         "record": "你的备案号 ", //icp备案
-        "startYear": "2020",
-        "info": "两名为梦而战的准程序员",
+        "startYear": "2023",
+        "info": "'留得枯荷听雨声'。在轻丝浮荡的梅雨时节，静坐于茶楼之上，神情认真，专注于面前程序。闲暇时，盛一盏竹叶青，临窗观雨。看轻柔的雨丝覆上四百八十座楼台，看桃花在雨帘中缓缓下坠，落红成阵，漾出世间最美的诗行。" +
+            "不觉中，两名怀梦而战的准程序员，又将用代码谱写出怎样的诗篇！",
         "mottos": [{
             "zh": "愿你保持初心和善良,笑里尽是温暖与坦荡。",
             "en": "May you keep your original heart and kindness, and smile with warmth and magnanimity."
@@ -163,9 +164,9 @@ module.exports = {
         [
             "dynamic-title",
             {
-                showIcon: "https://www.zpzpup.com/assets/image/favicon.ico",
+                showIcon: "https://pic.imgdb.cn/item/63e635c64757feff337ea914.webp",
                 showText: "欢迎回来 O(∩_∩)O~",
-                hideIcon: "https://www.zpzpup.com/assets/image/favicon.ico",
+                hideIcon: "https://pic.imgdb.cn/item/63e635c64757feff337ea914.webp",
                 hideText: "失联中。。。快回来~",
                 recoverTime: 2000
             }
