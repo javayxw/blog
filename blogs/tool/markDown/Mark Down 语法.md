@@ -505,10 +505,10 @@ $\textcolor{Gray}{Gray} $
 
 $\textcolor{Black}{Black}$
 
-11.备注
+## 11.备注
 
-11.1 不可以出现下列代码
+### 11.1 不可以出现下列代码
 
-![image-20230223151119703](C:\Users\86151\AppData\Roaming\Typora\typora-user-images\image-20230223151119703.png)
+https://pic.imgdb.cn/item/63f8320af144a01007cf1cf7.jpg
 
 不然整篇笔记都会莫名其妙消失，非常恐怖！！！
