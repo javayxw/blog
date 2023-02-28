@@ -7,7 +7,7 @@ tags:
  - ashore
 categories:
  -  每日打卡
-
+sticky: 1
 ---
 
 ::: tip 反思(记得修改倒计时)
