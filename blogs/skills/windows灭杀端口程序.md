@@ -171,7 +171,7 @@ try {
 
 
 
-> 使用Runtime的静态方法**`getRuntime()`**，获取到Runtime类后，调用**`exec()`**方法执行对应的`cmd`命令。再使用BufferedReader对象接收执行`cmd`命令后的返回结果，通过while循环读取信息。
+> 使用Runtime的静态方法`getRuntime()`，获取到Runtime类后，调用`exec()`方法执行对应的`cmd`命令。再使用BufferedReader对象接收执行`cmd`命令后的返回结果，通过while循环读取信息。
 >
 > 代码中间定义StringBuffer可变字符串，是为后面是否输出对应结果进行判断作铺垫。
 >
