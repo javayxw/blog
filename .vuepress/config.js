@@ -110,15 +110,15 @@ module.exports = {
             }
         ],
         "covers": [
-            'https://pan.zealsay.com/zealsay/cover/7.jpg',
-            'https://pan.zealsay.com/zealsay/cover/1.jpg',
-            'https://pan.zealsay.com/zealsay/cover/2.jpg',
-            'https://pan.zealsay.com/zealsay/cover/3.jpg',
-            'https://pan.zealsay.com/zealsay/cover/4.jpg',
-            'https://pan.zealsay.com/zealsay/cover/5.jpg',
-            'https://pan.zealsay.com/zealsay/cover/6.jpg'
+            'https://pic.imgdb.cn/item/641969b3a682492fcc39f11e.jpg',
+            'https://pic.imgdb.cn/item/641969b4a682492fcc39f184.jpg',
+            'https://pic.imgdb.cn/item/64197062a682492fcc47702b.jpg',
+            'https://pic.imgdb.cn/item/641969eea682492fcc3a501f.jpg',
+            'https://pic.imgdb.cn/item/641969efa682492fcc3a513d.jpg',
+            'https://pic.imgdb.cn/item/641969f0a682492fcc3a5368.jpg',
+            'https://pic.imgdb.cn/item/641969f1a682492fcc3a54f4.jpg'
         ],
-        "codeTheme": "tomorrow"
+        "codeTheme": "funky"
     },
     "markdown": {
         "lineNumbers": false
